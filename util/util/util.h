@@ -15,6 +15,3 @@ FOUNDATION_EXPORT double utilVersionNumber;
 FOUNDATION_EXPORT const unsigned char utilVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <util/PublicHeader.h>
-
-/// keychain
-#import "KeychainItemWrapper.h"

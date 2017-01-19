@@ -30,9 +30,6 @@
 		DFB18FA81E30ACB600911BD6 /* HXRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA71E30ACB600911BD6 /* HXRegex.swift */; };
 		DFB18FAA1E30ACF400911BD6 /* HXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA91E30ACF400911BD6 /* HXTextField.swift */; };
 		DFB18FAC1E30AD3F00911BD6 /* HXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FAB1E30AD3F00911BD6 /* HXView.swift */; };
-		DFB18FAE1E30B02900911BD6 /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FAD1E30B02900911BD6 /* UUID.swift */; };
-		DFB18FB21E30B05C00911BD6 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FB01E30B05C00911BD6 /* KeychainItemWrapper.h */; };
-		DFB18FB31E30B05C00911BD6 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FB11E30B05C00911BD6 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,9 +52,6 @@
 		DFB18FA71E30ACB600911BD6 /* HXRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXRegex.swift; sourceTree = "<group>"; };
 		DFB18FA91E30ACF400911BD6 /* HXTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXTextField.swift; sourceTree = "<group>"; };
 		DFB18FAB1E30AD3F00911BD6 /* HXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXView.swift; sourceTree = "<group>"; };
-		DFB18FAD1E30B02900911BD6 /* UUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
-		DFB18FB01E30B05C00911BD6 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		DFB18FB11E30B05C00911BD6 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,19 +110,8 @@
 				DFB18FA71E30ACB600911BD6 /* HXRegex.swift */,
 				DFB18FA91E30ACF400911BD6 /* HXTextField.swift */,
 				DFB18FAB1E30AD3F00911BD6 /* HXView.swift */,
-				DFB18FAD1E30B02900911BD6 /* UUID.swift */,
-				DFB18FAF1E30B05C00911BD6 /* KeychainItemWrapper */,
 			);
 			path = util;
-			sourceTree = "<group>";
-		};
-		DFB18FAF1E30B05C00911BD6 /* KeychainItemWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				DFB18FB01E30B05C00911BD6 /* KeychainItemWrapper.h */,
-				DFB18FB11E30B05C00911BD6 /* KeychainItemWrapper.m */,
-			);
-			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +128,6 @@
 				DF0835271C2FE64F0068026B /* Log.swift in Headers */,
 				DF0835281C2FE64F0068026B /* Operator.swift in Headers */,
 				DF0835291C2FE64F0068026B /* RangeCollectionPlugin.swift in Headers */,
-				DFB18FB21E30B05C00911BD6 /* KeychainItemWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,13 +206,11 @@
 				DFB18FAA1E30ACF400911BD6 /* HXTextField.swift in Sources */,
 				DF0835191C2FE2DB0068026B /* RangeCollectionPlugin.swift in Sources */,
 				DF0835141C2FE2DB0068026B /* Alert.swift in Sources */,
-				DFB18FB31E30B05C00911BD6 /* KeychainItemWrapper.m in Sources */,
 				DF0835161C2FE2DB0068026B /* ImageIO.swift in Sources */,
 				DF0835181C2FE2DB0068026B /* Operator.swift in Sources */,
 				DFB18F921E3091D600911BD6 /* Delay.swift in Sources */,
 				DFB18FA81E30ACB600911BD6 /* HXRegex.swift in Sources */,
 				DFB18FA41E30A83600911BD6 /* Extension+NSURL.swift in Sources */,
-				DFB18FAE1E30B02900911BD6 /* UUID.swift in Sources */,
 				DF0835171C2FE2DB0068026B /* Log.swift in Sources */,
 				DFB18FA21E30A81300911BD6 /* Extension+NSDate.swift in Sources */,
 				DF0835151C2FE2DB0068026B /* Extension+UI.swift in Sources */,

@@ -11,6 +11,7 @@ import Foundation
 // MARK: - String
 
 extension String {
+    /**
     /// 字符串的MD5值
     /// - note: MD5值是小写的
     public var md5String: String {
@@ -32,6 +33,7 @@ extension String {
             return self.md5String.uppercaseString
         }
     }
+     */
     /// 本地化字符串
     public var localizedString: String {
         get {

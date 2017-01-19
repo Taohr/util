@@ -24,6 +24,22 @@
 		DFB18FFB1E30C81D00911BD6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE91E30C81D00911BD6 /* Log.swift */; };
 		DFB18FFC1E30C81D00911BD6 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FEA1E30C81D00911BD6 /* Operator.swift */; };
 		DFB18FFD1E30C81D00911BD6 /* RangeCollectionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FEB1E30C81D00911BD6 /* RangeCollectionPlugin.swift */; };
+		DFB1902F1E30D06600911BD6 /* Alert.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FDB1E30C81D00911BD6 /* Alert.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190301E30D06600911BD6 /* Delay.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FDC1E30C81D00911BD6 /* Delay.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190311E30D06600911BD6 /* Extension+JSON.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FDD1E30C81D00911BD6 /* Extension+JSON.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190321E30D06600911BD6 /* Extension+NSDate.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FDE1E30C81D00911BD6 /* Extension+NSDate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190331E30D06600911BD6 /* Extension+NSFileManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FDF1E30C81D00911BD6 /* Extension+NSFileManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190341E30D06600911BD6 /* Extension+NSURL.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE01E30C81D00911BD6 /* Extension+NSURL.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190351E30D06600911BD6 /* Extension+Swift.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE11E30C81D00911BD6 /* Extension+Swift.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190361E30D06600911BD6 /* Extension+UI.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE21E30C81D00911BD6 /* Extension+UI.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190371E30D06600911BD6 /* Extension+UIApplication.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE31E30C81D00911BD6 /* Extension+UIApplication.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190381E30D06600911BD6 /* HXRegex.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE41E30C81D00911BD6 /* HXRegex.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB190391E30D06600911BD6 /* HXTextField.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE51E30C81D00911BD6 /* HXTextField.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1903A1E30D06600911BD6 /* HXView.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE61E30C81D00911BD6 /* HXView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1903B1E30D06600911BD6 /* ImageIO.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE71E30C81D00911BD6 /* ImageIO.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1903D1E30D06600911BD6 /* Log.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FE91E30C81D00911BD6 /* Log.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1903E1E30D06600911BD6 /* Operator.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FEA1E30C81D00911BD6 /* Operator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1903F1E30D06600911BD6 /* RangeCollectionPlugin.swift in Headers */ = {isa = PBXBuildFile; fileRef = DFB18FEB1E30C81D00911BD6 /* RangeCollectionPlugin.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +121,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB1902F1E30D06600911BD6 /* Alert.swift in Headers */,
+				DFB190301E30D06600911BD6 /* Delay.swift in Headers */,
+				DFB190311E30D06600911BD6 /* Extension+JSON.swift in Headers */,
+				DFB190321E30D06600911BD6 /* Extension+NSDate.swift in Headers */,
+				DFB190331E30D06600911BD6 /* Extension+NSFileManager.swift in Headers */,
+				DFB190341E30D06600911BD6 /* Extension+NSURL.swift in Headers */,
+				DFB190351E30D06600911BD6 /* Extension+Swift.swift in Headers */,
+				DFB190361E30D06600911BD6 /* Extension+UI.swift in Headers */,
+				DFB190371E30D06600911BD6 /* Extension+UIApplication.swift in Headers */,
+				DFB190381E30D06600911BD6 /* HXRegex.swift in Headers */,
+				DFB190391E30D06600911BD6 /* HXTextField.swift in Headers */,
+				DFB1903A1E30D06600911BD6 /* HXView.swift in Headers */,
+				DFB1903B1E30D06600911BD6 /* ImageIO.swift in Headers */,
+				DFB1903D1E30D06600911BD6 /* Log.swift in Headers */,
+				DFB1903E1E30D06600911BD6 /* Operator.swift in Headers */,
+				DFB1903F1E30D06600911BD6 /* RangeCollectionPlugin.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -276,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SDKROOT = iphoneos;

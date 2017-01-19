@@ -6,6 +6,7 @@
  *	@modify	null
  ******************************************************************************/
 
+import Foundation
 import UIKit
 
 public class Log {

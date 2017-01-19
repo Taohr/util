@@ -7,51 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF0835031C2FE2570068026B /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0835021C2FE2570068026B /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835141C2FE2DB0068026B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08350D1C2FE2DB0068026B /* Alert.swift */; };
-		DF0835151C2FE2DB0068026B /* Extension+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08350E1C2FE2DB0068026B /* Extension+UI.swift */; };
-		DF0835161C2FE2DB0068026B /* ImageIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08350F1C2FE2DB0068026B /* ImageIO.swift */; };
-		DF0835171C2FE2DB0068026B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0835101C2FE2DB0068026B /* Log.swift */; };
-		DF0835181C2FE2DB0068026B /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0835111C2FE2DB0068026B /* Operator.swift */; };
-		DF0835191C2FE2DB0068026B /* RangeCollectionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0835121C2FE2DB0068026B /* RangeCollectionPlugin.swift */; };
-		DF0835241C2FE64F0068026B /* Alert.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF08350D1C2FE2DB0068026B /* Alert.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835251C2FE64F0068026B /* Extension+UI.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF08350E1C2FE2DB0068026B /* Extension+UI.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835261C2FE64F0068026B /* ImageIO.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF08350F1C2FE2DB0068026B /* ImageIO.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835271C2FE64F0068026B /* Log.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF0835101C2FE2DB0068026B /* Log.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835281C2FE64F0068026B /* Operator.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF0835111C2FE2DB0068026B /* Operator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0835291C2FE64F0068026B /* RangeCollectionPlugin.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF0835121C2FE2DB0068026B /* RangeCollectionPlugin.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFB18F921E3091D600911BD6 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18F911E3091D600911BD6 /* Delay.swift */; };
-		DFB18F981E30A16A00911BD6 /* Extension+NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18F971E30A16A00911BD6 /* Extension+NSFileManager.swift */; };
-		DFB18F9C1E30A28F00911BD6 /* Extension+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18F9B1E30A28F00911BD6 /* Extension+Swift.swift */; };
-		DFB18FA01E30A78700911BD6 /* Extension+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18F9F1E30A78700911BD6 /* Extension+JSON.swift */; };
-		DFB18FA21E30A81300911BD6 /* Extension+NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA11E30A81300911BD6 /* Extension+NSDate.swift */; };
-		DFB18FA41E30A83600911BD6 /* Extension+NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA31E30A83600911BD6 /* Extension+NSURL.swift */; };
-		DFB18FA61E30A91E00911BD6 /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA51E30A91E00911BD6 /* Extension+UIApplication.swift */; };
-		DFB18FA81E30ACB600911BD6 /* HXRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA71E30ACB600911BD6 /* HXRegex.swift */; };
-		DFB18FAA1E30ACF400911BD6 /* HXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FA91E30ACF400911BD6 /* HXTextField.swift */; };
-		DFB18FAC1E30AD3F00911BD6 /* HXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FAB1E30AD3F00911BD6 /* HXView.swift */; };
+		DFB18FED1E30C81D00911BD6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FDB1E30C81D00911BD6 /* Alert.swift */; };
+		DFB18FEE1E30C81D00911BD6 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FDC1E30C81D00911BD6 /* Delay.swift */; };
+		DFB18FEF1E30C81D00911BD6 /* Extension+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FDD1E30C81D00911BD6 /* Extension+JSON.swift */; };
+		DFB18FF01E30C81D00911BD6 /* Extension+NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FDE1E30C81D00911BD6 /* Extension+NSDate.swift */; };
+		DFB18FF11E30C81D00911BD6 /* Extension+NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FDF1E30C81D00911BD6 /* Extension+NSFileManager.swift */; };
+		DFB18FF21E30C81D00911BD6 /* Extension+NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE01E30C81D00911BD6 /* Extension+NSURL.swift */; };
+		DFB18FF31E30C81D00911BD6 /* Extension+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE11E30C81D00911BD6 /* Extension+Swift.swift */; };
+		DFB18FF41E30C81D00911BD6 /* Extension+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE21E30C81D00911BD6 /* Extension+UI.swift */; };
+		DFB18FF51E30C81D00911BD6 /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE31E30C81D00911BD6 /* Extension+UIApplication.swift */; };
+		DFB18FF61E30C81D00911BD6 /* HXRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE41E30C81D00911BD6 /* HXRegex.swift */; };
+		DFB18FF71E30C81D00911BD6 /* HXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE51E30C81D00911BD6 /* HXTextField.swift */; };
+		DFB18FF81E30C81D00911BD6 /* HXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE61E30C81D00911BD6 /* HXView.swift */; };
+		DFB18FF91E30C81D00911BD6 /* ImageIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE71E30C81D00911BD6 /* ImageIO.swift */; };
+		DFB18FFA1E30C81D00911BD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFB18FE81E30C81D00911BD6 /* Info.plist */; };
+		DFB18FFB1E30C81D00911BD6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FE91E30C81D00911BD6 /* Log.swift */; };
+		DFB18FFC1E30C81D00911BD6 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FEA1E30C81D00911BD6 /* Operator.swift */; };
+		DFB18FFD1E30C81D00911BD6 /* RangeCollectionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB18FEB1E30C81D00911BD6 /* RangeCollectionPlugin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF0834FF1C2FE2570068026B /* util.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = util.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF0835021C2FE2570068026B /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		DF0835041C2FE2570068026B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF08350D1C2FE2DB0068026B /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		DF08350E1C2FE2DB0068026B /* Extension+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UI.swift"; sourceTree = "<group>"; };
-		DF08350F1C2FE2DB0068026B /* ImageIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageIO.swift; sourceTree = "<group>"; };
-		DF0835101C2FE2DB0068026B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		DF0835111C2FE2DB0068026B /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
-		DF0835121C2FE2DB0068026B /* RangeCollectionPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeCollectionPlugin.swift; sourceTree = "<group>"; };
-		DFB18F911E3091D600911BD6 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		DFB18F971E30A16A00911BD6 /* Extension+NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSFileManager.swift"; sourceTree = "<group>"; };
-		DFB18F9B1E30A28F00911BD6 /* Extension+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Swift.swift"; sourceTree = "<group>"; };
-		DFB18F9F1E30A78700911BD6 /* Extension+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+JSON.swift"; sourceTree = "<group>"; };
-		DFB18FA11E30A81300911BD6 /* Extension+NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSDate.swift"; sourceTree = "<group>"; };
-		DFB18FA31E30A83600911BD6 /* Extension+NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSURL.swift"; sourceTree = "<group>"; };
-		DFB18FA51E30A91E00911BD6 /* Extension+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
-		DFB18FA71E30ACB600911BD6 /* HXRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXRegex.swift; sourceTree = "<group>"; };
-		DFB18FA91E30ACF400911BD6 /* HXTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXTextField.swift; sourceTree = "<group>"; };
-		DFB18FAB1E30AD3F00911BD6 /* HXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXView.swift; sourceTree = "<group>"; };
+		DFB18FDB1E30C81D00911BD6 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		DFB18FDC1E30C81D00911BD6 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		DFB18FDD1E30C81D00911BD6 /* Extension+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+JSON.swift"; sourceTree = "<group>"; };
+		DFB18FDE1E30C81D00911BD6 /* Extension+NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSDate.swift"; sourceTree = "<group>"; };
+		DFB18FDF1E30C81D00911BD6 /* Extension+NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSFileManager.swift"; sourceTree = "<group>"; };
+		DFB18FE01E30C81D00911BD6 /* Extension+NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+NSURL.swift"; sourceTree = "<group>"; };
+		DFB18FE11E30C81D00911BD6 /* Extension+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Swift.swift"; sourceTree = "<group>"; };
+		DFB18FE21E30C81D00911BD6 /* Extension+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UI.swift"; sourceTree = "<group>"; };
+		DFB18FE31E30C81D00911BD6 /* Extension+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
+		DFB18FE41E30C81D00911BD6 /* HXRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXRegex.swift; sourceTree = "<group>"; };
+		DFB18FE51E30C81D00911BD6 /* HXTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXTextField.swift; sourceTree = "<group>"; };
+		DFB18FE61E30C81D00911BD6 /* HXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXView.swift; sourceTree = "<group>"; };
+		DFB18FE71E30C81D00911BD6 /* ImageIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageIO.swift; sourceTree = "<group>"; };
+		DFB18FE81E30C81D00911BD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB18FE91E30C81D00911BD6 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		DFB18FEA1E30C81D00911BD6 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		DFB18FEB1E30C81D00911BD6 /* RangeCollectionPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeCollectionPlugin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +61,7 @@
 		DF0834F51C2FE2570068026B = {
 			isa = PBXGroup;
 			children = (
-				DF0835011C2FE2570068026B /* util */,
+				DFB18FDA1E30C81D00911BD6 /* Sources */,
 				DF0835001C2FE2570068026B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,37 +74,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF0835011C2FE2570068026B /* util */ = {
+		DFB18FDA1E30C81D00911BD6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF0835021C2FE2570068026B /* util.h */,
-				DF08350C1C2FE2DB0068026B /* util */,
-				DF0835041C2FE2570068026B /* Info.plist */,
+				DFB18FDB1E30C81D00911BD6 /* Alert.swift */,
+				DFB18FDC1E30C81D00911BD6 /* Delay.swift */,
+				DFB18FDD1E30C81D00911BD6 /* Extension+JSON.swift */,
+				DFB18FDE1E30C81D00911BD6 /* Extension+NSDate.swift */,
+				DFB18FDF1E30C81D00911BD6 /* Extension+NSFileManager.swift */,
+				DFB18FE01E30C81D00911BD6 /* Extension+NSURL.swift */,
+				DFB18FE11E30C81D00911BD6 /* Extension+Swift.swift */,
+				DFB18FE21E30C81D00911BD6 /* Extension+UI.swift */,
+				DFB18FE31E30C81D00911BD6 /* Extension+UIApplication.swift */,
+				DFB18FE41E30C81D00911BD6 /* HXRegex.swift */,
+				DFB18FE51E30C81D00911BD6 /* HXTextField.swift */,
+				DFB18FE61E30C81D00911BD6 /* HXView.swift */,
+				DFB18FE71E30C81D00911BD6 /* ImageIO.swift */,
+				DFB18FE81E30C81D00911BD6 /* Info.plist */,
+				DFB18FE91E30C81D00911BD6 /* Log.swift */,
+				DFB18FEA1E30C81D00911BD6 /* Operator.swift */,
+				DFB18FEB1E30C81D00911BD6 /* RangeCollectionPlugin.swift */,
 			);
-			path = util;
-			sourceTree = "<group>";
-		};
-		DF08350C1C2FE2DB0068026B /* util */ = {
-			isa = PBXGroup;
-			children = (
-				DF08350D1C2FE2DB0068026B /* Alert.swift */,
-				DFB18F9F1E30A78700911BD6 /* Extension+JSON.swift */,
-				DFB18FA11E30A81300911BD6 /* Extension+NSDate.swift */,
-				DFB18F971E30A16A00911BD6 /* Extension+NSFileManager.swift */,
-				DFB18FA31E30A83600911BD6 /* Extension+NSURL.swift */,
-				DFB18F9B1E30A28F00911BD6 /* Extension+Swift.swift */,
-				DF08350E1C2FE2DB0068026B /* Extension+UI.swift */,
-				DFB18FA51E30A91E00911BD6 /* Extension+UIApplication.swift */,
-				DF08350F1C2FE2DB0068026B /* ImageIO.swift */,
-				DF0835101C2FE2DB0068026B /* Log.swift */,
-				DF0835111C2FE2DB0068026B /* Operator.swift */,
-				DFB18F911E3091D600911BD6 /* Delay.swift */,
-				DF0835121C2FE2DB0068026B /* RangeCollectionPlugin.swift */,
-				DFB18FA71E30ACB600911BD6 /* HXRegex.swift */,
-				DFB18FA91E30ACF400911BD6 /* HXTextField.swift */,
-				DFB18FAB1E30AD3F00911BD6 /* HXView.swift */,
-			);
-			path = util;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,13 +105,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0835031C2FE2570068026B /* util.h in Headers */,
-				DF0835241C2FE64F0068026B /* Alert.swift in Headers */,
-				DF0835251C2FE64F0068026B /* Extension+UI.swift in Headers */,
-				DF0835261C2FE64F0068026B /* ImageIO.swift in Headers */,
-				DF0835271C2FE64F0068026B /* Log.swift in Headers */,
-				DF0835281C2FE64F0068026B /* Operator.swift in Headers */,
-				DF0835291C2FE64F0068026B /* RangeCollectionPlugin.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB18FFA1E30C81D00911BD6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,22 +176,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB18F981E30A16A00911BD6 /* Extension+NSFileManager.swift in Sources */,
-				DFB18FA01E30A78700911BD6 /* Extension+JSON.swift in Sources */,
-				DFB18FAC1E30AD3F00911BD6 /* HXView.swift in Sources */,
-				DFB18FA61E30A91E00911BD6 /* Extension+UIApplication.swift in Sources */,
-				DFB18F9C1E30A28F00911BD6 /* Extension+Swift.swift in Sources */,
-				DFB18FAA1E30ACF400911BD6 /* HXTextField.swift in Sources */,
-				DF0835191C2FE2DB0068026B /* RangeCollectionPlugin.swift in Sources */,
-				DF0835141C2FE2DB0068026B /* Alert.swift in Sources */,
-				DF0835161C2FE2DB0068026B /* ImageIO.swift in Sources */,
-				DF0835181C2FE2DB0068026B /* Operator.swift in Sources */,
-				DFB18F921E3091D600911BD6 /* Delay.swift in Sources */,
-				DFB18FA81E30ACB600911BD6 /* HXRegex.swift in Sources */,
-				DFB18FA41E30A83600911BD6 /* Extension+NSURL.swift in Sources */,
-				DF0835171C2FE2DB0068026B /* Log.swift in Sources */,
-				DFB18FA21E30A81300911BD6 /* Extension+NSDate.swift in Sources */,
-				DF0835151C2FE2DB0068026B /* Extension+UI.swift in Sources */,
+				DFB18FF11E30C81D00911BD6 /* Extension+NSFileManager.swift in Sources */,
+				DFB18FF01E30C81D00911BD6 /* Extension+NSDate.swift in Sources */,
+				DFB18FF71E30C81D00911BD6 /* HXTextField.swift in Sources */,
+				DFB18FF21E30C81D00911BD6 /* Extension+NSURL.swift in Sources */,
+				DFB18FF91E30C81D00911BD6 /* ImageIO.swift in Sources */,
+				DFB18FF41E30C81D00911BD6 /* Extension+UI.swift in Sources */,
+				DFB18FEF1E30C81D00911BD6 /* Extension+JSON.swift in Sources */,
+				DFB18FFC1E30C81D00911BD6 /* Operator.swift in Sources */,
+				DFB18FF81E30C81D00911BD6 /* HXView.swift in Sources */,
+				DFB18FFB1E30C81D00911BD6 /* Log.swift in Sources */,
+				DFB18FF61E30C81D00911BD6 /* HXRegex.swift in Sources */,
+				DFB18FED1E30C81D00911BD6 /* Alert.swift in Sources */,
+				DFB18FF31E30C81D00911BD6 /* Extension+Swift.swift in Sources */,
+				DFB18FF51E30C81D00911BD6 /* Extension+UIApplication.swift in Sources */,
+				DFB18FFD1E30C81D00911BD6 /* RangeCollectionPlugin.swift in Sources */,
+				DFB18FEE1E30C81D00911BD6 /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +296,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = util/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -340,7 +318,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = util/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -7,6 +7,7 @@
  ******************************************************************************/
 
 import Foundation
+import UIKit
 
 /// 渐变类型
 public enum Gradient {

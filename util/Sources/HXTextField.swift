@@ -7,6 +7,7 @@
  ******************************************************************************/
 
 import Foundation
+import UIKit
 
 public class HXTextField : UITextField {
     /// 是否允许长按显示菜单

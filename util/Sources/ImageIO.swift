@@ -6,6 +6,9 @@
  *	@modify	null
  ******************************************************************************/
 
+import Foundation
+import UIKit
+
 /// 根目录
 public enum RootPath {
     /// Documents目录, 存放用户数据, 如app设置, 一直存在, 参与备份
